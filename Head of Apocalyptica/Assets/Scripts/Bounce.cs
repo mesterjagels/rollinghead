@@ -34,19 +34,26 @@ public class Bounce : MonoBehaviour {
         audio.clip = splatSound[Random.Range(0, splatSound.Length)];
         audio.Play();
     }
+
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "spike")
         {
             Lose();
             GameObject.Destroy(gameObject);
-        } else if (collider.gameObject.tag == "frog")
+        }
+        else if (collider.gameObject.tag == "frog")
             {
             wrongControls = true;
             GameObject.Destroy(collider);
             }
+        else if (collider.gameObject.tag == "win")
+        {
+            Lose();
+            GameObject.Destroy(gameObject);
+        }
     }
-    void Lose()
+    public void Lose()
     {
         FindObjectOfType<Camera>().GetComponent<cameraMove>().cameraSpeed = 0;
     }
