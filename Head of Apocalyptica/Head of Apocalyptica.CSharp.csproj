@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bounce.cs" />
     <Compile Include="Assets\Scripts\LevelHandler.cs" />
+    <Compile Include="Assets\Scripts\assignSprite.cs" />
     <Compile Include="Assets\Scripts\cameraMove.cs" />
     <Compile Include="Assets\Scripts\removeCollider.cs" />
   </ItemGroup>
