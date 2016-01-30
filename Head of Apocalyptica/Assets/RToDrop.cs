@@ -1,17 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RToRitual : MonoBehaviour
-{
+public class RToDrop : MonoBehaviour {
 
-    void Update()
-    {
+	void Update () {
         if (!GameObject.FindGameObjectWithTag("Player").GetComponent<Bounce>().isRolling)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
-                this.GetComponent<Animator>().Play("Execute");
-                this.GetComponent<AudioSource>().Play();
+                this.GetComponent<Animator>().Play("IncaBody");
             }
         }
     }

@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: a24fb405ed2312f40ab7770f43e293d9
+timeCreated: 1454182199
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inca body animation_0
+    21300002: Inca body animation_1
+    21300004: Inca body animation_2
+    21300006: Inca body animation_3
+    21300008: Inca body animation_4
+    21300010: Inca body animation_5
+    21300012: Inca body animation_6
+    21300014: Inca body animation_7
+    21300016: Inca body animation_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Inca body animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -17, y: 12}
+        - {x: -17, y: -12}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 18, y: -15}
+        - {x: 18, y: 16}
+    - name: Inca body animation_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -17, y: 6}
+        - {x: -17, y: -11}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 18, y: -12}
+        - {x: 18, y: 4}
+        - {x: 10, y: 10}
+    - name: Inca body animation_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -17, y: 12}
+        - {x: -17, y: -12}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 18, y: -15}
+        - {x: 18, y: 16}
+    - name: Inca body animation_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 0}
+        - {x: -17, y: -14}
+        - {x: -16, y: -16}
+        - {x: 18, y: -16}
+        - {x: 18, y: 10}
+        - {x: 16, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 10}
+    - name: Inca body animation_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 5}
+        - {x: 23, y: 3}
+        - {x: 18, y: -8}
+        - {x: 21, y: -6}
+        - {x: 8, y: -1}
+        - {x: -4, y: 0}
+        - {x: -16, y: -7}
+        - {x: -26, y: 5}
+        - {x: -35, y: 5}
+        - {x: -45, y: 4}
+        - {x: -48, y: 2}
+        - {x: -48, y: -9}
+        - {x: -44, y: -16}
+        - {x: 40, y: -16}
+        - {x: 48, y: -12}
+        - {x: 48, y: 5}
+    - name: Inca body animation_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -1}
+        - {x: -17, y: -3}
+        - {x: -17, y: -16}
+        - {x: 18, y: -16}
+        - {x: 18, y: -10}
+        - {x: 13, y: -1}
+      - - {x: -38, y: 13}
+        - {x: -39, y: 13}
+        - {x: -45, y: 11}
+        - {x: -48, y: 4}
+        - {x: -48, y: -11}
+        - {x: -40, y: -14}
+        - {x: -26, y: -14}
+        - {x: -22, y: -8}
+        - {x: -22, y: 2}
+        - {x: -23, y: 8}
+      - - {x: 40, y: 13}
+        - {x: 31, y: 13}
+        - {x: 23, y: 5}
+        - {x: 23, y: -11}
+        - {x: 25, y: -14}
+        - {x: 46, y: -14}
+        - {x: 48, y: -12}
+        - {x: 48, y: 7}
+        - {x: 47, y: 12}
+    - name: Inca body animation_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -1}
+        - {x: -17, y: -3}
+        - {x: -17, y: -16}
+        - {x: 18, y: -16}
+        - {x: 18, y: -10}
+        - {x: 13, y: -1}
+      - - {x: -44, y: 15}
+        - {x: -48, y: 11}
+        - {x: -48, y: -7}
+        - {x: -45, y: -9}
+        - {x: -28, y: -9}
+        - {x: -28, y: 13}
+        - {x: -30, y: 15}
+      - - {x: 29, y: 15}
+        - {x: 24, y: 10}
+        - {x: 24, y: -7}
+        - {x: 25, y: -9}
+        - {x: 41, y: -9}
+        - {x: 45, y: -1}
+        - {x: 45, y: 10}
+        - {x: 40, y: 15}
+    - name: Inca body animation_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -1}
+        - {x: -17, y: -3}
+        - {x: -17, y: -16}
+        - {x: 18, y: -16}
+        - {x: 18, y: -10}
+        - {x: 13, y: -1}
+      - - {x: -43, y: 16}
+        - {x: -45, y: 14}
+        - {x: -44, y: 9}
+        - {x: -41, y: 4}
+        - {x: -38, y: 6}
+        - {x: -36, y: 13}
+        - {x: -37, y: 16}
+      - - {x: 34, y: 16}
+        - {x: 34, y: 4}
+        - {x: 38, y: 4}
+        - {x: 41, y: 5}
+        - {x: 43, y: 14}
+        - {x: 41, y: 16}
+    - name: Inca body animation_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -1}
+        - {x: -17, y: -3}
+        - {x: -17, y: -16}
+        - {x: 18, y: -16}
+        - {x: 18, y: -10}
+        - {x: 13, y: -1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
