@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Bounce : MonoBehaviour {
 
-    public float bounceHeight = 1;
-    public float speed = 1;
-    public Rigidbody2D rb;
+    public float bounceHeight;
+    public float speed;
+    private Rigidbody2D rb;
+
 
     void Start()
     {
@@ -14,18 +15,18 @@ public class Bounce : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll)
     {
-        this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, bounceHeight);
+        rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
     }
 
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, this.GetComponent<Rigidbody2D>().velocity.y);
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(speed, this.GetComponent<Rigidbody2D>().velocity.y);
+            rb.velocity = new Vector2(speed, rb.velocity.y);
         }
         //if (Input.GetKeyDown(KeyCode.LeftArrow))
         //{
