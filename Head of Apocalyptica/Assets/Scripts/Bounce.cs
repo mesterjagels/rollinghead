@@ -8,16 +8,22 @@ public class Bounce : MonoBehaviour {
     private Rigidbody2D rb;
     public AudioClip[] splatSound;
     private AudioSource audio;
+    private bool isRolling = false;
+    private Camera camera;
+    public float cameraSpeed;
+    
 
-    void Start()
+    void Awake()
     {
         audio = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
+        rb.isKinematic = true;
+        camera = FindObjectOfType<Camera>();
+        camera.GetComponent<cameraMove>().cameraSpeed = 0;
     }
 
 	void OnCollisionEnter2D(Collision2D coll)
     {
-       
         rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
         audio.clip = splatSound[Random.Range(0, splatSound.Length)];
         audio.Play();
@@ -36,6 +42,18 @@ public class Bounce : MonoBehaviour {
     }
     void Update()
     {
+        if (!isRolling)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                isRolling = !isRolling;
+                rb.isKinematic = false;
+                rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
+                camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
+                this.GetComponent<Animator>().Play("RollingHeadAnim");  
+            }
+        }
+        if (isRolling) { 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
@@ -43,6 +61,7 @@ public class Bounce : MonoBehaviour {
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
+        }
         }
         //if (Input.GetKeyDown(KeyCode.LeftArrow))
         //{
