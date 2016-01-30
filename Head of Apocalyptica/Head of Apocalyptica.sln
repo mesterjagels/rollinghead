@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Head of Apocalyptica.CSharp.Plugins", "Head of Apocalyptica.CSharp.Plugins.csproj", "{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Head of Apocalyptica.CSharp", "Head of Apocalyptica.CSharp.csproj", "{DC4763AA-05D0-32B1-963C-AC1190AD2DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Head of Apocalyptica.CSharp.Editor", "Head of Apocalyptica.CSharp.Editor.csproj", "{FAFFEA70-CAC5-1DF4-6A8C-03FD94ACC485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4763AA-05D0-32B1-963C-AC1190AD2DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4763AA-05D0-32B1-963C-AC1190AD2DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4763AA-05D0-32B1-963C-AC1190AD2DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4763AA-05D0-32B1-963C-AC1190AD2DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFFEA70-CAC5-1DF4-6A8C-03FD94ACC485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFFEA70-CAC5-1DF4-6A8C-03FD94ACC485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFFEA70-CAC5-1DF4-6A8C-03FD94ACC485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFFEA70-CAC5-1DF4-6A8C-03FD94ACC485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
