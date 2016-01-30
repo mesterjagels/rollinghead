@@ -5,10 +5,12 @@ public class parot : MonoBehaviour {
 
     public float speed;
     private Rigidbody2D rb;
+    public GameObject player;
 	// Update is called once per frame
 
     void Awake()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(speed, rb.velocity.y);
     }
@@ -20,6 +22,8 @@ public class parot : MonoBehaviour {
 	}
     void OnTriggerEnter2D(Collider2D collider)
     {
-        collider.GetComponent<Rigidbody2D>().velocity = new Vector2(speed * 2, collider.GetComponent<Rigidbody2D>().velocity.y);
+        if (collider.gameObject.tag == "Player") { 
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2(speed * 2, player.GetComponent<Rigidbody2D>().velocity.y);
+    }
     }
 }

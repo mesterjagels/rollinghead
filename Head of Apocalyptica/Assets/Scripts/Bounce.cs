@@ -12,6 +12,8 @@ public class Bounce : MonoBehaviour {
     private Camera camera;
     public float cameraSpeed;
     public Canvas canvas;
+    public AudioClip actionMusic;
+    public AudioClip suspenseMusic;
 
     private bool wrongControls = false;
     
@@ -26,6 +28,8 @@ public class Bounce : MonoBehaviour {
         rb.isKinematic = true;
         canvas.enabled = true;        
         camera.GetComponent<cameraMove>().cameraSpeed = 0;
+        camera.GetComponent<AudioSource>().clip = suspenseMusic;
+        camera.GetComponent<AudioSource>().Play();
     }
 
 	void OnCollisionEnter2D(Collision2D coll)
@@ -68,7 +72,9 @@ public class Bounce : MonoBehaviour {
                 canvas.enabled = !canvas.enabled;
                 rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
                 camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
-                this.GetComponent<Animator>().Play("RollingHeadAnim");  
+                this.GetComponent<Animator>().Play("RollingHeadAnim");
+                camera.GetComponent<AudioSource>().clip = actionMusic;
+                camera.GetComponent<AudioSource>().Play();
             }
         }
         if (isRolling) {
