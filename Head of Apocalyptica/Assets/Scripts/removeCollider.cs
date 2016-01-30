@@ -14,11 +14,6 @@ public class removeCollider : MonoBehaviour {
         head = GameObject.FindWithTag("Player");
     }
 
-    void Update()
-    {
-        print(head.GetComponent<Transform>().position.x);
-    }
-
 	void OnCollisionEnter2D(Collision2D coll)
     {
         myCollider.enabled = !myCollider.enabled;
