@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: f48732ef39736844692ea5e08397f37e
+timeCreated: 1454187307
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Win_0
+    21300002: Win_1
+    21300004: Win_2
+    21300006: Win_3
+    21300008: Win_4
+    21300010: Win_5
+    21300012: Win_6
+    21300014: Win_7
+    21300016: Win_8
+    21300018: Win_9
+    21300020: Win_10
+    21300022: Win_11
+    21300024: Win_12
+    21300026: Win_13
+    21300028: Win_14
+    21300030: Win_15
+    21300032: Win_16
+    21300034: Win_17
+    21300036: Win_18
+    21300038: Win_19
+    21300040: Win_20
+    21300042: Win_21
+    21300044: Win_22
+    21300046: Win_23
+    21300048: Win_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Win_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 1}
+        - {x: -9, y: 1}
+        - {x: -13, y: -2}
+        - {x: -13, y: -26}
+        - {x: -7, y: -28}
+        - {x: 16, y: -28}
+        - {x: 16, y: -11}
+    - name: Win_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 0}
+        - {x: -10, y: -1}
+        - {x: -13, y: -5}
+        - {x: -13, y: -29}
+        - {x: 16, y: -29}
+        - {x: 16, y: -11}
+        - {x: 14, y: 0}
+    - name: Win_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 0}
+        - {x: -16, y: -5}
+        - {x: -16, y: -29}
+        - {x: -15, y: -29}
+        - {x: -6, y: -31}
+        - {x: 16, y: -31}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+    - name: Win_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 0}
+        - {x: -16, y: -5}
+        - {x: -16, y: -31}
+        - {x: 16, y: -31}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+    - name: Win_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 0}
+        - {x: -16, y: -5}
+        - {x: -16, y: -31}
+        - {x: 16, y: -31}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+      - - {x: -2, y: 18}
+        - {x: -3, y: 15}
+        - {x: -3, y: 14}
+        - {x: 0, y: 11}
+        - {x: 2, y: 11}
+        - {x: 4, y: 14}
+        - {x: 4, y: 17}
+        - {x: 2, y: 18}
+    - name: Win_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 0}
+        - {x: -16, y: -5}
+        - {x: -16, y: -31}
+        - {x: 16, y: -31}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+      - - {x: -4, y: 23}
+        - {x: -8, y: 21}
+        - {x: -8, y: 8}
+        - {x: -7, y: 6}
+        - {x: 8, y: 6}
+        - {x: 9, y: 14}
+        - {x: 9, y: 17}
+        - {x: 6, y: 23}
+    - name: Win_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 0}
+        - {x: -16, y: -5}
+        - {x: -16, y: -31}
+        - {x: 16, y: -31}
+        - {x: 16, y: -2}
+        - {x: 14, y: 0}
+      - - {x: -3, y: 28}
+        - {x: -12, y: 25}
+        - {x: -12, y: 10}
+        - {x: -11, y: 4}
+        - {x: -9, y: 1}
+        - {x: 4, y: 1}
+        - {x: 14, y: 5}
+        - {x: 14, y: 21}
+        - {x: 10, y: 28}
+    - name: Win_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -16, y: 27}
+        - {x: -16, y: 3}
+        - {x: -13, y: -1}
+        - {x: -10, y: -2}
+        - {x: -8, y: -2}
+        - {x: -4, y: 2}
+        - {x: -6, y: -2}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -30}
+        - {x: 16, y: 31}
+    - name: Win_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 31}
+        - {x: -5, y: 25}
+        - {x: -5, y: 27}
+        - {x: -8, y: 30}
+        - {x: -11, y: 31}
+        - {x: -16, y: 31}
+        - {x: -16, y: 11}
+        - {x: -15, y: 10}
+        - {x: -13, y: 11}
+        - {x: -9, y: 9}
+        - {x: -7, y: 11}
+        - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -14, y: 7}
+        - {x: -16, y: 4}
+        - {x: -16, y: -2}
+        - {x: -14, y: -2}
+        - {x: -7, y: -1}
+        - {x: -4, y: 2}
+        - {x: -4, y: 0}
+        - {x: -9, y: -2}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    - name: Win_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -16, y: -3}
+        - {x: -12, y: -3}
+        - {x: -7, y: 1}
+        - {x: -11, y: -4}
+        - {x: -11, y: -6}
+        - {x: -16, y: -18}
+        - {x: -16, y: -31}
+        - {x: 14, y: -31}
+        - {x: 16, y: -29}
+        - {x: 16, y: 31}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
