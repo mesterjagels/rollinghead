@@ -60,21 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Head of Apocalyptica.CSharp.Plugins.csproj">
-      <Project>{80A96BF9-A75D-13A8-1CEF-C80F01E9CFB1}</Project>
-      <Name>Head of Apocalyptica.CSharp.Plugins</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scripts\Bounce.cs" />
     <Compile Include="Assets\Scripts\LevelHandler.cs" />
     <Compile Include="Assets\Scripts\assignSprite.cs" />
     <Compile Include="Assets\Scripts\cameraMove.cs" />
     <Compile Include="Assets\Scripts\removeCollider.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
