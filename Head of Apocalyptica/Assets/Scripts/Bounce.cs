@@ -12,6 +12,8 @@ public class Bounce : MonoBehaviour {
     private Camera camera;
     public float cameraSpeed;
     public Canvas canvas;
+
+    private bool wrongControls = false;
     
 
     void Awake()
@@ -38,7 +40,11 @@ public class Bounce : MonoBehaviour {
         {
             Lose();
             GameObject.Destroy(gameObject);
-        }
+        } else if (collider.gameObject.tag == "frog")
+            {
+            wrongControls = true;
+            GameObject.Destroy(collider);
+            }
     }
     void Lose()
     {
@@ -58,23 +64,26 @@ public class Bounce : MonoBehaviour {
                 this.GetComponent<Animator>().Play("RollingHeadAnim");  
             }
         }
-        if (isRolling) { 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
+        if (isRolling) {
+            if (!wrongControls) { 
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    rb.velocity = new Vector2(-speed, rb.velocity.y);
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+                }
+            } else {
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    rb.velocity = new Vector2(-speed, rb.velocity.y);
+                }
+            }
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-        }
-        //if (Input.GetKeyDown(KeyCode.LeftArrow))
-        //{
-        //    rb.AddForce(new Vector2(-speed * transform.position.x, transform.position.y));
-        //}
-        //else if (Input.GetKey(KeyCode.RightArrow))
-        //{
-        //    rb.AddForce(new Vector2(speed * transform.position.x, transform.position.y));
-        //}
     }
 }
