@@ -7,6 +7,7 @@ public class LevelHandler : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
     {
+        levelIndex = levelIndex + 1;
         Application.LoadLevel(levelIndex);
        
     }
