@@ -8,17 +8,21 @@ public class Bounce : MonoBehaviour {
     private Rigidbody2D rb;
     public AudioClip[] splatSound;
     private AudioSource audio;
-    private bool isRolling = false;
+    public bool isRolling = false;
     private Camera camera;
     public float cameraSpeed;
+    public Canvas canvas;
     
 
     void Awake()
     {
+        canvas = FindObjectOfType<Canvas>();
         audio = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
-        rb.isKinematic = true;
         camera = FindObjectOfType<Camera>();
+
+        rb.isKinematic = true;
+        canvas.enabled = true;        
         camera.GetComponent<cameraMove>().cameraSpeed = 0;
     }
 
@@ -48,6 +52,7 @@ public class Bounce : MonoBehaviour {
             {
                 isRolling = !isRolling;
                 rb.isKinematic = false;
+                canvas.enabled = !canvas.enabled;
                 rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
                 camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
                 this.GetComponent<Animator>().Play("RollingHeadAnim");  
