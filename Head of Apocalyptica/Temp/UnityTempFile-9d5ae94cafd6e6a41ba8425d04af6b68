@@ -3,7 +3,6 @@
 -nowarn:0169
 -out:Temp/Assembly-CSharp.dll
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
@@ -74,6 +73,8 @@
 -define:CROSS_PLATFORM_INPUT
 Assets/Scripts/Bounce.cs
 Assets/Scripts/LevelHandler.cs
+Assets/Scripts/ParallaxBackground.cs
+Assets/Scripts/ParallaxLayer.cs
 Assets/Scripts/assignSprite.cs
 Assets/Scripts/cameraMove.cs
 Assets/Scripts/removeCollider.cs

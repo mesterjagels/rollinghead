@@ -8,7 +8,7 @@ public class removeCollider : MonoBehaviour {
     public GameObject splat;
     public GameObject head;
 
-    void Start()
+    void Awake()
     {
         myCollider = GetComponent<Collider2D>();
         head = GameObject.FindWithTag("Player");

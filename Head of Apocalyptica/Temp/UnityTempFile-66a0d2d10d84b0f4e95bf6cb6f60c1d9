@@ -1,7 +1,7 @@
 -debug
 -target:library
 -nowarn:0169
--out:Temp/Assembly-CSharp-firstpass.dll
+-out:Temp/Assembly-CSharp.dll
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -71,22 +71,10 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
 -define:CROSS_PLATFORM_INPUT
-"Assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs"
-"Assets/Standard Assets/Cameras/Scripts/AutoCam.cs"
-"Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs"
-"Assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs"
-"Assets/Standard Assets/Cameras/Scripts/LookatTarget.cs"
-"Assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs"
-"Assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs"
-"Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
-"Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+Assets/ParallaxBackground.cs
+Assets/ParallaxLayer.cs
+Assets/Scripts/Bounce.cs
+Assets/Scripts/LevelHandler.cs
+Assets/Scripts/assignSprite.cs
+Assets/Scripts/cameraMove.cs
+Assets/Scripts/removeCollider.cs
