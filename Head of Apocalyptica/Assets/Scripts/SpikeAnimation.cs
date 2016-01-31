@@ -9,8 +9,10 @@ public class SpikeAnimation : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collider)
     {
-        GetComponent<Animator>().Play("SpikeDeath");
+        if (collider.gameObject.tag == "Player") { 
+            GetComponent<Animator>().Play("SpikeDeath");
         GetComponent<AudioSource>().Play();
         text.GetComponent<Text>().text = "Press 'R' to Restart";
+    }
     }
 }
