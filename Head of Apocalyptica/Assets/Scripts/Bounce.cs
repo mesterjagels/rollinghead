@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Bounce : MonoBehaviour {
 
@@ -14,6 +15,8 @@ public class Bounce : MonoBehaviour {
     public Canvas canvas;
     public AudioClip actionMusic;
     public AudioClip suspenseMusic;
+    public Text text;
+    
 
     private bool wrongControls = false;
     
@@ -44,7 +47,8 @@ public class Bounce : MonoBehaviour {
         if (collider.gameObject.tag == "spike")
         {
             Lose();
-            GameObject.Destroy(gameObject);
+            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
+            gameObject.SetActive(false);
         }
         else if (collider.gameObject.tag == "frog")
             {
@@ -53,29 +57,45 @@ public class Bounce : MonoBehaviour {
             }
         else if (collider.gameObject.tag == "win")
         {
+            FindObjectOfType<Camera>().GetComponent<AudioSource>().Stop();
             Lose();
-            GameObject.Destroy(gameObject);
+            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().levelCompleted = true;
+            gameObject.SetActive(false);
+        }
+        if (collider.gameObject.tag == "lava")
+        {
+            Lose();
+            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
+            gameObject.SetActive(false);
         }
     }
     public void Lose()
     {
         FindObjectOfType<Camera>().GetComponent<cameraMove>().cameraSpeed = 0;
+        isRolling = !isRolling;
+
     }
+
+    void Roll()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            isRolling = !isRolling;
+            rb.isKinematic = false;
+            canvas.enabled = !canvas.enabled;
+            rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
+            camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
+            this.GetComponent<Animator>().Play("RollingHeadAnim");
+            camera.GetComponent<AudioSource>().clip = actionMusic;
+            camera.GetComponent<AudioSource>().Play();
+        }
+    }
+
     void Update()
     {
         if (!isRolling)
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                isRolling = !isRolling;
-                rb.isKinematic = false;
-                canvas.enabled = !canvas.enabled;
-                rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
-                camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
-                this.GetComponent<Animator>().Play("RollingHeadAnim");
-                camera.GetComponent<AudioSource>().clip = actionMusic;
-                camera.GetComponent<AudioSource>().Play();
-            }
+            Roll();
         }
         if (isRolling) {
             if (!wrongControls) { 

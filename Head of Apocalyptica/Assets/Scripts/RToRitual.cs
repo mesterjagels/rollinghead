@@ -6,7 +6,7 @@ public class RToRitual : MonoBehaviour
 
     void Update()
     {
-        if (!GameObject.FindGameObjectWithTag("Player").GetComponent<Bounce>().isRolling)
+        if (!GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead)
         { 
             if (Input.GetKeyDown(KeyCode.R))
             {
