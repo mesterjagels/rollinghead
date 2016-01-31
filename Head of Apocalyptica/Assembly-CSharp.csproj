@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HoleDeath.cs" />
      <Compile Include="Assets\Scripts\Bounce.cs" />
      <Compile Include="Assets\Scripts\LevelHandler.cs" />
      <Compile Include="Assets\Scripts\RToDrop.cs" />
@@ -52,9 +53,10 @@
      <Compile Include="Assets\Scripts\SpikeAnimation.cs" />
      <Compile Include="Assets\Scripts\assignSprite.cs" />
      <Compile Include="Assets\Scripts\cameraMove.cs" />
+     <Compile Include="Assets\Scripts\parot.cs" />
+     <Compile Include="Assets\Scripts\parotleft.cs" />
      <Compile Include="Assets\Scripts\removeCollider.cs" />
-     <Compile Include="Assets\parot.cs" />
-     <Compile Include="Assets\parotleft.cs" />
+     <Compile Include="Assets\lavaDeath.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
