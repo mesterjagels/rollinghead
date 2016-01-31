@@ -71,11 +71,13 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
 -define:CROSS_PLATFORM_INPUT
-Assets/RToDrop.cs
-Assets/RToRitual.cs
 Assets/Scripts/Bounce.cs
 Assets/Scripts/LevelHandler.cs
+Assets/Scripts/RToDrop.cs
+Assets/Scripts/RToRitual.cs
+Assets/Scripts/SpikeAnimation.cs
 Assets/Scripts/assignSprite.cs
 Assets/Scripts/cameraMove.cs
+Assets/Scripts/parot.cs
+Assets/Scripts/parotleft.cs
 Assets/Scripts/removeCollider.cs
-Assets/SpikeAnimation.cs
