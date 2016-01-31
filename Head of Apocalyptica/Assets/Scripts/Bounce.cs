@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Bounce : MonoBehaviour {
 
@@ -14,6 +15,7 @@ public class Bounce : MonoBehaviour {
     public Canvas canvas;
     public AudioClip actionMusic;
     public AudioClip suspenseMusic;
+    public Text text;
     
 
     private bool wrongControls = false;
@@ -55,8 +57,15 @@ public class Bounce : MonoBehaviour {
             }
         else if (collider.gameObject.tag == "win")
         {
+            FindObjectOfType<Camera>().GetComponent<AudioSource>().Stop();
             Lose();
             GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().levelCompleted = true;
+            gameObject.SetActive(false);
+        }
+        if (collider.gameObject.tag == "lava")
+        {
+            Lose();
+            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
             gameObject.SetActive(false);
         }
     }
