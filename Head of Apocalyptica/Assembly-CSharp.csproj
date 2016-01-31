@@ -45,7 +45,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
      <Compile Include="Assets\HoleDeath.cs" />
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
      <Compile Include="Assets\Scripts\Bounce.cs" />
      <Compile Include="Assets\Scripts\LevelHandler.cs" />
      <Compile Include="Assets\Scripts\RToDrop.cs" />
@@ -56,9 +59,19 @@
      <Compile Include="Assets\Scripts\parot.cs" />
      <Compile Include="Assets\Scripts\parotleft.cs" />
      <Compile Include="Assets\Scripts\removeCollider.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\parot.cs" />
+     <Compile Include="Assets\parotleft.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+=======
      <Compile Include="Assets\lavaDeath.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
