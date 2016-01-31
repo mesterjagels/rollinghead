@@ -1,4 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 563a859a3ffbec5469d3fc80ba920be5
+timeCreated: 1454236956
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+=======
 guid: d6aa0e9b781e37d4986b66a3e7ff7190
 timeCreated: 1454240234
 licenseType: Free
@@ -12,6 +19,7 @@ TextureImporter:
     21300010: lava_animation_5
     21300012: lava_animation_6
     21300014: lava_animation_7
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,20 +33,33 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
+<<<<<<< HEAD
+    heightScale: .25
+=======
     heightScale: 0.25
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
+<<<<<<< HEAD
+  cubemapConvolutionSteps: 8
+=======
   cubemapConvolutionSteps: 7
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+<<<<<<< HEAD
+    filterMode: -1
+    aniso: -1
+=======
     filterMode: 0
     aniso: 16
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -46,6 +67,15 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+=======
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -53,10 +83,14 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 20
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - name: lava_animation_0
       rect:
@@ -147,6 +181,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []
+>>>>>>> 6ccb1e2abd40fc79f5163f902aad30876ff24ce6
   spritePackingTag: 
   userData: 
   assetBundleName: 
