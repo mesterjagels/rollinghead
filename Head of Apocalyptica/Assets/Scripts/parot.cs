@@ -17,7 +17,7 @@ public class parot : MonoBehaviour {
 	void Update () {
 	    if(transform.position.x < -10f)
         {
-            transform.position = new Vector2(12f, transform.position.y);
+            transform.position = new Vector3(12f, transform.position.y, transform.position.z);
         }
 	}
     void OnTriggerEnter2D(Collider2D collider)
