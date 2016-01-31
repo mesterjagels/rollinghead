@@ -61,8 +61,12 @@ public class Bounce : MonoBehaviour {
             Lose();
             GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().levelCompleted = true;
             gameObject.SetActive(false);
-        }
-        if (collider.gameObject.tag == "lava")
+        } else if (collider.gameObject.tag == "lava")
+        {
+            Lose();
+            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
+            gameObject.SetActive(false);
+        } else if (collider.gameObject.tag == "hole")
         {
             Lose();
             GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
