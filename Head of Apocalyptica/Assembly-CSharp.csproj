@@ -45,14 +45,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RToDrop.cs" />
-     <Compile Include="Assets\RToRitual.cs" />
      <Compile Include="Assets\Scripts\Bounce.cs" />
      <Compile Include="Assets\Scripts\LevelHandler.cs" />
+     <Compile Include="Assets\Scripts\RToDrop.cs" />
+     <Compile Include="Assets\Scripts\RToRitual.cs" />
+     <Compile Include="Assets\Scripts\SpikeAnimation.cs" />
      <Compile Include="Assets\Scripts\assignSprite.cs" />
      <Compile Include="Assets\Scripts\cameraMove.cs" />
      <Compile Include="Assets\Scripts\removeCollider.cs" />
-     <Compile Include="Assets\SpikeAnimation.cs" />
+     <Compile Include="Assets\parot.cs" />
+     <Compile Include="Assets\parotleft.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
