@@ -7,7 +7,7 @@ public class intro : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            Application.LoadLevel(1);
+            Application.LoadLevel(Application.loadedLevel + 1);
         }
     }
 }
