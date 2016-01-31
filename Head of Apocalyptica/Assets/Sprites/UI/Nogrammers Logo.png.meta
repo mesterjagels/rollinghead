@@ -1,9 +1,37 @@
 fileFormatVersion: 2
 guid: 344772dae35c56f4fa97115a5cc182b3
-timeCreated: 1454241931
+timeCreated: 1454243677
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Nogrammers Logo_0
+    21300002: Nogrammers Logo_1
+    21300004: Nogrammers Logo_2
+    21300006: Nogrammers Logo_3
+    21300008: Nogrammers Logo_4
+    21300010: Nogrammers Logo_5
+    21300012: Nogrammers Logo_6
+    21300014: Nogrammers Logo_7
+    21300016: Nogrammers Logo_8
+    21300018: Nogrammers Logo_9
+    21300020: Nogrammers Logo_10
+    21300022: Nogrammers Logo_11
+    21300024: Nogrammers Logo_12
+    21300026: Nogrammers Logo_13
+    21300028: Nogrammers Logo_14
+    21300030: Nogrammers Logo_15
+    21300032: Nogrammers Logo_16
+    21300034: Nogrammers Logo_17
+    21300036: Nogrammers Logo_18
+    21300038: Nogrammers Logo_19
+    21300040: Nogrammers Logo_20
+    21300042: Nogrammers Logo_21
+    21300044: Nogrammers Logo_22
+    21300046: Nogrammers Logo_23
+    21300048: Nogrammers Logo_24
+    21300050: Nogrammers Logo_25
+    21300052: Nogrammers Logo_26
+    21300054: Nogrammers Logo_27
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,7 +54,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -38,7 +66,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +77,427 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Nogrammers Logo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 16.5}
+    - name: Nogrammers Logo_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399994, y: 16.5}
+        - {x: -36.399994, y: -16.5}
+        - {x: 37.600006, y: -16.5}
+        - {x: 37.600006, y: 16.5}
+    - name: Nogrammers Logo_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299988, y: 16.5}
+        - {x: -36.299988, y: -16.5}
+        - {x: 36.700012, y: -16.5}
+        - {x: 36.700012, y: 16.5}
+    - name: Nogrammers Logo_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.199997, y: 16.5}
+        - {x: -36.199997, y: -16.5}
+        - {x: 37.800003, y: -16.5}
+        - {x: 37.800003, y: 16.5}
+    - name: Nogrammers Logo_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.599976, y: 16.5}
+        - {x: -36.599976, y: -16.5}
+        - {x: 37.400024, y: -16.5}
+        - {x: 37.400024, y: 16.5}
+    - name: Nogrammers Logo_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 16.5}
+    - name: Nogrammers Logo_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399994, y: 16.5}
+        - {x: -36.399994, y: -16.5}
+        - {x: 37.600006, y: -16.5}
+        - {x: 37.600006, y: 16.5}
+    - name: Nogrammers Logo_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299988, y: 16.5}
+        - {x: -36.299988, y: -16.5}
+        - {x: 36.700012, y: -16.5}
+        - {x: 36.700012, y: 16.5}
+    - name: Nogrammers Logo_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.19995, y: 16.5}
+        - {x: -36.19995, y: -16.5}
+        - {x: 37.80005, y: -16.5}
+        - {x: 37.80005, y: 16.5}
+    - name: Nogrammers Logo_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.099976, y: 16.5}
+        - {x: -36.099976, y: -16.5}
+        - {x: 36.900024, y: -16.5}
+        - {x: 36.900024, y: 16.5}
+    - name: Nogrammers Logo_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 16.5}
+    - name: Nogrammers Logo_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399963, y: 16.5}
+        - {x: -36.399963, y: -16.5}
+        - {x: 37.600037, y: -16.5}
+        - {x: 37.600037, y: 16.5}
+    - name: Nogrammers Logo_12
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299988, y: 16.5}
+        - {x: -36.299988, y: -16.5}
+        - {x: 36.700012, y: -16.5}
+        - {x: 36.700012, y: 16.5}
+    - name: Nogrammers Logo_13
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.19995, y: 16.5}
+        - {x: -36.19995, y: -16.5}
+        - {x: 37.80005, y: -16.5}
+        - {x: 37.80005, y: 16.5}
+    - name: Nogrammers Logo_14
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.099976, y: 16.5}
+        - {x: -36.099976, y: -16.5}
+        - {x: 36.900024, y: -16.5}
+        - {x: 36.900024, y: 16.5}
+    - name: Nogrammers Logo_15
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 16.5}
+    - name: Nogrammers Logo_16
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399902, y: 16.5}
+        - {x: -36.399902, y: -16.5}
+        - {x: 37.600098, y: -16.5}
+        - {x: 37.600098, y: 16.5}
+    - name: Nogrammers Logo_17
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299927, y: 16.5}
+        - {x: -36.299927, y: -16.5}
+        - {x: 36.700073, y: -16.5}
+        - {x: 36.700073, y: 16.5}
+    - name: Nogrammers Logo_18
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.19995, y: 16.5}
+        - {x: -36.19995, y: -16.5}
+        - {x: 37.80005, y: -16.5}
+        - {x: 37.80005, y: 16.5}
+    - name: Nogrammers Logo_19
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.099976, y: 16.5}
+        - {x: -36.099976, y: -16.5}
+        - {x: 36.900024, y: -16.5}
+        - {x: 36.900024, y: 16.5}
+    - name: Nogrammers Logo_20
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -16.5}
+        - {x: 36.5, y: -16.5}
+        - {x: 36.5, y: 16.5}
+    - name: Nogrammers Logo_21
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399902, y: 16.5}
+        - {x: -36.399902, y: -16.5}
+        - {x: 37.600098, y: -16.5}
+        - {x: 37.600098, y: 16.5}
+    - name: Nogrammers Logo_22
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299927, y: 16.5}
+        - {x: -36.299927, y: -16.5}
+        - {x: 36.700073, y: -16.5}
+        - {x: 36.700073, y: 16.5}
+    - name: Nogrammers Logo_23
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.19995, y: 16.5}
+        - {x: -36.19995, y: -16.5}
+        - {x: 37.80005, y: -16.5}
+        - {x: 37.80005, y: 16.5}
+    - name: Nogrammers Logo_24
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.099976, y: 16.5}
+        - {x: -36.099976, y: -16.5}
+        - {x: 36.900024, y: -16.5}
+        - {x: 36.900024, y: 16.5}
+    - name: Nogrammers Logo_25
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.499878, y: 16.5}
+        - {x: -36.499878, y: -16.5}
+        - {x: 36.500122, y: -16.5}
+        - {x: 36.500122, y: 16.5}
+    - name: Nogrammers Logo_26
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.399902, y: 16.5}
+        - {x: -36.399902, y: -16.5}
+        - {x: 37.600098, y: -16.5}
+        - {x: 37.600098, y: 16.5}
+    - name: Nogrammers Logo_27
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 0
+        width: 110
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.299927, y: 16.5}
+        - {x: -36.299927, y: -16.5}
+        - {x: 36.700073, y: -16.5}
+        - {x: 36.700073, y: 16.5}
     outline: []
   spritePackingTag: 
   userData: 
