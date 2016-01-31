@@ -12,6 +12,10 @@ public class Bounce : MonoBehaviour {
     private Camera camera;
     public float cameraSpeed;
     public Canvas canvas;
+    public AudioClip actionMusic;
+    public AudioClip suspenseMusic;
+
+    private bool wrongControls = false;
     
 
     void Awake()
@@ -24,6 +28,8 @@ public class Bounce : MonoBehaviour {
         rb.isKinematic = true;
         canvas.enabled = true;        
         camera.GetComponent<cameraMove>().cameraSpeed = 0;
+        camera.GetComponent<AudioSource>().clip = suspenseMusic;
+        camera.GetComponent<AudioSource>().Play();
     }
 
 	void OnCollisionEnter2D(Collision2D coll)
@@ -32,6 +38,7 @@ public class Bounce : MonoBehaviour {
         audio.clip = splatSound[Random.Range(0, splatSound.Length)];
         audio.Play();
     }
+
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "spike")
@@ -39,8 +46,18 @@ public class Bounce : MonoBehaviour {
             Lose();
             GameObject.Destroy(gameObject);
         }
+        else if (collider.gameObject.tag == "frog")
+            {
+            wrongControls = true;
+            GameObject.Destroy(collider);
+            }
+        else if (collider.gameObject.tag == "win")
+        {
+            Lose();
+            GameObject.Destroy(gameObject);
+        }
     }
-    void Lose()
+    public void Lose()
     {
         FindObjectOfType<Camera>().GetComponent<cameraMove>().cameraSpeed = 0;
     }
@@ -55,26 +72,31 @@ public class Bounce : MonoBehaviour {
                 canvas.enabled = !canvas.enabled;
                 rb.velocity = new Vector2(rb.velocity.x, bounceHeight);
                 camera.GetComponent<cameraMove>().cameraSpeed = this.cameraSpeed;
-                this.GetComponent<Animator>().Play("RollingHeadAnim");  
+                this.GetComponent<Animator>().Play("RollingHeadAnim");
+                camera.GetComponent<AudioSource>().clip = actionMusic;
+                camera.GetComponent<AudioSource>().Play();
             }
         }
-        if (isRolling) { 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
+        if (isRolling) {
+            if (!wrongControls) { 
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    rb.velocity = new Vector2(-speed, rb.velocity.y);
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+                }
+            } else {
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    rb.velocity = new Vector2(-speed, rb.velocity.y);
+                }
+            }
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-        }
-        //if (Input.GetKeyDown(KeyCode.LeftArrow))
-        //{
-        //    rb.AddForce(new Vector2(-speed * transform.position.x, transform.position.y));
-        //}
-        //else if (Input.GetKey(KeyCode.RightArrow))
-        //{
-        //    rb.AddForce(new Vector2(speed * transform.position.x, transform.position.y));
-        //}
     }
 }
