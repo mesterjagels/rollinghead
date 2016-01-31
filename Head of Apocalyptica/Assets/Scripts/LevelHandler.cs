@@ -9,15 +9,11 @@ public class LevelHandler : MonoBehaviour {
     public GameObject win;
     public bool levelCompleted;
     public bool playerDead;
-    public Text text;
-    private Canvas canvas;
 
     void Awake()
     {
         levelCompleted = false;
         playerDead = false;
-        canvas = FindObjectOfType<Canvas>();
-        text.text = "Press 'R' to execute";
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -29,8 +25,7 @@ public class LevelHandler : MonoBehaviour {
 
     void Update()
     {
-        if (levelCompleted) {
-            canvas.enabled = true;
+        if (levelCompleted) { 
                
             if (Input.GetKey(KeyCode.Space))
             {
