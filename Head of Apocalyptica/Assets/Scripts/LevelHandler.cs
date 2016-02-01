@@ -4,7 +4,6 @@ using System.Collections;
 
 public class LevelHandler : MonoBehaviour {
 
-    int levelIndex = 0;
     private float playerPosX;
     public GameObject win;
     public bool levelCompleted;
@@ -29,14 +28,13 @@ public class LevelHandler : MonoBehaviour {
                
             if (Input.GetKey(KeyCode.Space))
             {
-                levelIndex = levelIndex + 1;
-                Application.LoadLevel(levelIndex);
+                Application.LoadLevel(Application.loadedLevel + 1);
             }
         } else if (playerDead)
         {
             if (Input.GetKey(KeyCode.R))
             {
-                Application.LoadLevel(levelIndex);
+                Application.LoadLevel(Application.loadedLevel);
             }
         }
 
