@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Levels/debug.unity
+- path: Assets/Levels/Lava and Bird Test.unity
   isLoaded: 1
   isActive: 1

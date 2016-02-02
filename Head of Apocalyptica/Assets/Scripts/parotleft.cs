@@ -26,6 +26,7 @@ public class parotleft : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
+            GetComponent<AudioSource>().Play();
             player.GetComponent<Rigidbody2D>().velocity = new Vector3(speed * 2, player.GetComponent<Rigidbody2D>().velocity.y,transform.position.z);
         }
     }

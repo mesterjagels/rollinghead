@@ -44,11 +44,9 @@ public class Bounce : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "spike")
+        if (collider.gameObject.tag == "spike" || collider.gameObject.tag == "lava" || collider.gameObject.tag == "hole")
         {
             Lose();
-            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
-            gameObject.SetActive(false);
         }
         else if (collider.gameObject.tag == "frog")
             {
@@ -58,18 +56,11 @@ public class Bounce : MonoBehaviour {
         else if (collider.gameObject.tag == "win")
         {
             FindObjectOfType<Camera>().GetComponent<AudioSource>().Stop();
-            Lose();
+
+            FindObjectOfType<Camera>().GetComponent<cameraMove>().cameraSpeed = 0;
+            isRolling = !isRolling;
+
             GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().levelCompleted = true;
-            gameObject.SetActive(false);
-        } else if (collider.gameObject.tag == "lava")
-        {
-            Lose();
-            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
-            gameObject.SetActive(false);
-        } else if (collider.gameObject.tag == "hole")
-        {
-            Lose();
-            GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
             gameObject.SetActive(false);
         }
     }
@@ -77,8 +68,10 @@ public class Bounce : MonoBehaviour {
     {
         FindObjectOfType<Camera>().GetComponent<cameraMove>().cameraSpeed = 0;
         isRolling = !isRolling;
-
+        GameObject.FindGameObjectWithTag("win").GetComponent<LevelHandler>().playerDead = true;
+        gameObject.SetActive(false);
     }
+
 
     void Roll()
     {
@@ -103,20 +96,20 @@ public class Bounce : MonoBehaviour {
         }
         if (isRolling) {
             if (!wrongControls) { 
-                if (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
                     rb.velocity = new Vector2(-speed, rb.velocity.y);
                 }
-                else if (Input.GetKey(KeyCode.RightArrow))
+                else if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     rb.velocity = new Vector2(speed, rb.velocity.y);
                 }
             } else {
-                if (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
                     rb.velocity = new Vector2(speed, rb.velocity.y);
                 }
-                else if (Input.GetKey(KeyCode.RightArrow))
+                else if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
                     rb.velocity = new Vector2(-speed, rb.velocity.y);
                 }
