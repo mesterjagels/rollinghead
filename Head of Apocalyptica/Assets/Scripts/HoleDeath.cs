@@ -8,6 +8,7 @@ public class HoleDeath : MonoBehaviour {
         if (collider.gameObject.tag == "Player")
         {
             GetComponent<AudioSource>().Play();
+            GetComponent<Animator>().Play("HoleDeathAnim");
         }
     }
 }

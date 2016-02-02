@@ -44,7 +44,7 @@ public class Bounce : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "spike" || collider.gameObject.tag == "lava" || collider.gameObject.tag == "hole")
+        if (collider.gameObject.tag == "spike" || collider.gameObject.tag == "lava" || collider.gameObject.tag == "hole" || collider.gameObject.tag == "MainCamera")
         {
             Lose();
         }
