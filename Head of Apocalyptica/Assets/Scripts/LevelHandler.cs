@@ -17,9 +17,12 @@ public class LevelHandler : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        levelCompleted = true;
-        playerPosX = GameObject.FindGameObjectWithTag("Player").transform.position.x;
-        Instantiate(win, new Vector3(playerPosX, transform.position.y + 10.5f, transform.position.z), Quaternion.identity);
+        if (collider.gameObject.tag == "Player")
+        {
+            levelCompleted = true;
+            playerPosX = GameObject.FindGameObjectWithTag("Player").transform.position.x;
+            Instantiate(win, new Vector3(playerPosX, transform.position.y + 9.5f, transform.position.z), Quaternion.identity);
+        }
     }
 
     void Update()

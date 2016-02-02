@@ -9,7 +9,7 @@ public class SpikeAnimation : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Player") { 
             GetComponent<Animator>().Play("SpikeDeath");
-        GetComponent<AudioSource>().Play();
-    }
+            GetComponent<AudioSource>().Play();
+     }
     }
 }
